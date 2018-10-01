@@ -11,10 +11,11 @@ def submit():
 	v = round(v,3)
 
 	output.config(state="normal")
-	output.insert(tk.INSERT,v)
+	outputValve = "Given/nradius:"+str(r)+"/height:"+str(h)+"units/nThe volume is:"+str(v)+" units cubed/n/n"
+
+	output.delete(1.0,tk.END)
+	output.insert(tk.INSERT,outputValve)
 	output.config(state="disabled")
-
-
 
 
 root = tk.Tk()
