@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as Food Tracking Program
 
 def submit():
 	print("Submit pressed")
@@ -6,14 +6,6 @@ def submit():
 	print(list)
 	lab.config(text = "Food Item")
 
-
-#This function will parse a string and
-#add a new element to the list for all
-#values 
-
-
-
-#creates an empty list
 list = []
 
 root = tk.Tk()
